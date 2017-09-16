@@ -442,19 +442,31 @@ namespace Passwort_Generator_Gui_Csharp
             if (dlg.ShowDialog() == DialogResult.OK)
             {
                 fileName2 = dlg.FileName;
-                StreamReader readFile = new StreamReader(fileName2);
-                string line;
-                string[] row1;
+                try
+                {
+                    StreamReader readFile = new StreamReader(fileName2);
+                    string line;
+                    string[] row1;
 
-                line = readFile.ReadLine();
+                    line = readFile.ReadLine();
 
-                row1 = line.Split(';');
-                listBox1.Items.AddRange(row1);
+                    row1 = line.Split(';');
+                    listBox1.Items.AddRange(row1);
 
 
-                //More code and assignations here...
+                    //More code and assignations here...
 
-                readFile.Close();
+                    readFile.Close();
+                }catch(Exception x){
+					string message = "Die Datei ist Leer.";
+					string caption = "Error";
+					MessageBoxButtons buttons = MessageBoxButtons.OK;
+					DialogResult result;
+
+					// Displays the MessageBox.
+
+					result = MessageBox.Show(message, caption, buttons);
+                }
             }
         }
 

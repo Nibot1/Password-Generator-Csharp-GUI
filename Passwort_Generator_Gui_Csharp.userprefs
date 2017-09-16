@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{45D594FF-F241-404A-BF1D-A0C6220B4277}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Passwort_Generator_Gui_Csharp/Program.cs">
+    <Files>
+      <File FileName="Passwort_Generator_Gui_Csharp/Form1.cs" Line="10" Column="1" />
+      <File FileName="Passwort_Generator_Gui_Csharp/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Passwort__Generator__Gui__Csharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
